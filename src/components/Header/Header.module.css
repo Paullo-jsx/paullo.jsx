@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5em;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(15px);
+    z-index: 1000;
+    border-bottom: 1px solid #8080802f;
+
+}
+.span {
+    font-family: 'Signika Negative', sans-serif;
+    background: linear-gradient(130deg, rgb(10, 55, 238) 0%, rgba(0, 247, 255, 1) 13%, rgb(52, 160, 196) 44%, rgb(2, 115, 150) 84%);
+    height: 6.5vh;
+    width: fit-content;
+    height: fit-content;
+    font-weight: bolder;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: xx-large;
+}
+.header .navegacao {
+    display: flex;
+    gap: 1em;
+}
+.header .navegacao .a {
+    transition: .4s;
+    border-radius: 5px;
+    border-bottom: 1px solid #03060c00;
+    text-decoration: none;
+    height: 2em;
+    padding-inline: .4em;
+}
+.header .navegacao .a:hover {
+    transform: translateY(-5px);
+    border-bottom: 1px solid #00ffff;
+    width: max-content;
+}
+.source {
+    display: flex;
+    gap: .5em;
+    text-decoration: underline;
+}
+@media screen and (max-width: 700px) {
+    .source {
+        display: none;
+    }
+    .a {
+        display: none;
+    }
+}
