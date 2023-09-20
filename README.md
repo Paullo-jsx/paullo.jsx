@@ -1,4 +1,4 @@
-<h2>Portfólio | Antônio Paulo</h2>
+<h1>Portfólio | Antônio Paulo</h1>
 
 <a href="https://paullo-jsx.github.io/paullo.jsx" target="_blank">Acesse-o aqui</a>
 <ul><h3>Tecnologias usadas</h3>
