@@ -1,4 +1,5 @@
 <h1>Portfólio | Antônio Paulo</h1>
+<img src="https://github.com/Paullo-jsx/paullo.jsx/blob/main/src/assets/Capa%20de%20evento%20do%20Facebook%201920x1080%20%20px..png?raw=true" alt="Preview of my website"/>
 <a href="https://paullo-jsx.github.io/paullo.jsx" target="_blank">Acesse-o aqui</a>
 <h3>Tecnologias usadas</h3>
 <ul>
